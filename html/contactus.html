@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <link rel= "stylesheet" href="../css/style.css" >
+    <title>AAB</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" >
+</head>
+
+
+<body>
+<header>
+    <section class="header">
+	    
+		     <section class="header">
+	    <nav>
+		    <a href="index.html"><img src=""></a>
+		    <div class="nav-links" id="navLinks">
+			<i class="fas fa-times" onclick="hideMenu()"></i>
+			    <ul>
+				    <li><a href="index.html">HOME</a></li>
+					<li><a href="#home">ACTIVITIES</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					
+			        <li><a href="contactus.html">CONTACT</a></li>
+			    </ul>
+			</div>
+			   
+		</nav>   
+		 
+		<div class="container">
+		<i class="last fab fa-facebook-f " ><span>   :  Association d'Astronomie el Battani -AAB</span></i>
+		
+		<i class="fas fa-phone "><span>  : +213-659-240-049</span></i>
+		<i class="last far fa-envelope "><span>    : battani.oran@gmail.com</span></i> 
+<!---------<form  method="POST" class="submit-form">
+      <div class="pageTitle title">Contact Us </div>
+      
+      <input type="text" id="name" class="name formEntry" placeholder="Name" />
+      <input type="text" id="email" class="email formEntry" placeholder="Email"/>
+      <textarea id="message" class="message formEntry" placeholder="Message"></textarea>
+      <button  class="submit formEntry">Submit</button>
+            </form>--------->
+	    </div>
+</header>
+
+<!-------footer--------->
+    <section class="footer">
+	    <h4>About Us</h4>
+		<p>AAB is an non profit organization in Algeria, located in Oran, with the aim of spreading the scientific knowledge related to Astronomy.<br> 
+        We value the space science and related sciences.</p>
+		<div class= "icons">
+		<i class="fab fa-facebook-f" ></i>
+		<i class="fab fa-instagram"id="f"></i>
+		<i class="far fa-envelope"></i>
+		</div>
+		<p>Made with <i class="far fa-heart" id="l"></i> by Nardjes Bessafi</p>
+	</section>
+	
+
+  
+
+
+
+
+
+<!--------JavaScript for Toggle Menu-------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+	navLinks.style.right = "0";
+	}
+	function hideMenu(){
+	navLinks.style.right = "-200px";
+	}
+</script>
+
+</body>
+
+
+</html>

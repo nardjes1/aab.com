@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <link rel= "stylesheet" href="../css/style.css" >
+    <title>AAB</title>
+	
+   
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" >
+</head>
+
+
+<body>
+    <section class="header">
+	    <nav>
+		    <a href="index.html"><img src=""></a>
+		    <div class="nav-links" id="navLinks">
+			<i class="fas fa-times" onclick="hideMenu()"></i>
+			    <ul>
+				    <li><a href="">HOME</a></li>
+					<li><a href="#home">ACTIVITIES</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					
+			        <li><a href="contactus.html">CONTACT</a></li>
+			    </ul>
+			</div>
+			<i class="fas fa-ellipsis-h" onclick="showMenu()"></i>         
+		</nav>
+        <div class="text-box">
+		<h1>El-Battani Astronomy Association</h1>
+		<p>Make your dreams of learning more about the universe a reality with our association, AAB is your Algerian planet to gain knowledge<br/> about astronomy and space sciences, 
+		it is an open space for innovation, new ideas and fun.</p>
+		<a href="contactus.html" class="hero-btn">Contact Us To Know More</a>
+		</div>
+	
+	</section>
+	
+<!--------Activities-------->
+
+    <section class="activities" id="home">
+         <h1>Our Activities</h1>
+		 <p>With our team, you can experience different methods of learning about astronomy.</p> 
+		 
+		 <div class="row">
+		     <div class="course-col">
+			 <h3>All Levels Courses</h3>
+			 <p>AAB introduces courses for both kids and adults in different topics related to astronomy,
+			 our sessions are presented by a qualified team and enthusiasm.</p>
+			 </div>
+			  
+		     <div class="course-col">
+			 <h3>Community Events</h3>
+			 <p>AAB has a vision of spreading the astronomy knowledge in Algeria. For this reason, 
+			 we organize events in several forms such as conferences, sky observations nights, competitions and so more.</p>
+			 </div>
+			 
+			  <div class="course-col">
+			 <h3>Discussion Clubs</h3>
+			 <p>Debates and scientific conversations are an important part of our association, 
+			 we make sure to always feed our brains with fruitful discussions.  </p>
+			 </div>
+		 </div>	 
+    </section>
+
+<!--------favTopics-------->
+     <section class="news">
+         <h1>Our Favorite Topics</h1>
+		 <p>For this year, we try to mention the best of the sky's calendar. </p>
+		 <div class="row">
+		                 <div class="news-pic">
+			     <img src="../pics/aaaa.jpg" alt="earth pic">
+				 <div class="layer"></div>
+				 <h3>ASTROPHYSICS</h3>
+			 </div>
+			 		     <div class="news-pic">
+			     <img src="../pics/cccc.jpg" alt="earth pic">
+				 <div class="layer"></div>
+				 <h3>ASTRONOMY</h3>
+			 </div>
+			 		     <div class="news-pic">
+			     <img src="../pics/dddd.jpg" alt="earth pic">
+				 <div class="layer"></div>
+				 <h3>AEROSPACE</h3>
+			 </div>	
+		 </div>		 
+	 </section>
+<!--------experience-------->
+    <section class="experience">
+	    <h1>Some Of Our Events</h1>
+		<p>We organize events for our members and for the community, both online and in-person.</p>
+		
+		<div class="row">
+		    <div class="exp-pic">
+			    <img src="../pics/b.jpg">
+				<h3>Teaching School Kids</h3>
+				<p>We had the pleasure of presenting to the students of the private school "القيم الحضارية" some of our shows.</p>
+			</div>
+			 <div class="exp-pic">
+			    <img src="../pics/f.jpg">
+				<h3>Knowledgeable Holidays </h3>
+				<p>For holidays, we plan sessions for the benefit of school students and kids, our activities make the learning experience fun.</p>
+			</div>
+			 <div class="exp-pic">
+			    <img src="../pics/h.jpg">
+				<h3>The Transit Of Mercury</h3>
+				<p>The transit of Murcury acoss the sun is an astronomical event that we presented in real life in Le Marghreb cinema of Oran</p>
+			</div>
+		</div>
+	</section>
+	
+<!-----------CallUs------------>
+    <section class="contact" id="about">
+	    <h1>Contact Us And Join Our Team</h1>
+		<a href="contactus.html" class="hero-btn">CONTACT US</a>
+	
+	</section>
+	
+	
+<!-------footer--------->
+    <section class="footer">
+	    <h4>About Us:</h4>
+		<p>AAB is an non profit organization in Algeria, located in Oran, with the aim of spreading the scientific knowledge related to Astronomy.<br> 
+        We value the space science and related sciences.</p>
+		<div class= "icons">
+		<i class="fab fa-facebook-f" ></i>
+		<i class="fab fa-instagram"id="f"></i>
+		<i class="far fa-envelope"></i>
+		</div>
+		<p>Made with <i class="far fa-heart" id="l"></i> by Nardjes Bessafi</p>
+	</section>
+
+
+
+
+
+	
+<!--------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+	navLinks.style.right = "0";
+	}
+	function hideMenu(){
+	navLinks.style.right = "-200px";
+	}
+</script>
+
+</body>
+
+
+</html>

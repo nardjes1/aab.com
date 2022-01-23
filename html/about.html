@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <link rel= "stylesheet" href="../css/style.css" >
+    <title>AAB</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" >
+</head>
+
+
+<body>
+<header>
+    <section class="header">
+	    <nav>
+		    <a href="index.html"><img src=""></a>
+		    <div class="nav-links" id="navLinks">
+			<i class="fas fa-times" onclick="hideMenu()"></i>
+			    <ul>
+				    <li><a href="index.html">HOME</a></li>
+					<li><a href="#home">ACTIVITIES</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					
+			        <li><a href="contactus.html">CONTACT</a></li>
+			    </ul>
+			</div>
+			<i class="fas fa-ellipsis-h" onclick="showMenu()"></i> 
+		</nav>
+		<div class="wrapper">
+		    <div class="about-pic">
+			    <img src="../pics/aab-logoo.jpg">
+			</div>
+			
+			<div class="about-text">
+			<h4>About Us</h4>
+		<p>AAB is an non profit organization in Algeria, located in Oran, with the aim of spreading the scientific knowledge related to Astronomy. 
+        We value the space science and related sciences and we do our best to help increase the interest of the youth and the young generation in such thoughtful sciences.
+        AAB is a perfect place for people with innovative ideas, imagination and curiosity to learn about our universe.
+        Our events for the community and for our members demonstrate our vision, our hard work and our love towards seeking knowledge.
+        AAB welcomes members, volunteers and interested minds in the mysteries of our universe.</p>
+			</div>
+		</div>
+	</section>
+</header>
+    <main>
+	   
+	
+	
+	</main>
+<!-------footer--------->
+    <section class="footer">
+	    <h4>About Us</h4>
+		<p>AAB is an non profit organization in Algeria, located in Oran, with the aim of spreading the scientific knowledge related to Astronomy.<br> 
+        We value the space science and related sciences.</p>
+		<div class= "icons">
+		<i class="fab fa-facebook-f" ></i>
+		<i class="fab fa-instagram"id="f"></i>
+		<i class="far fa-envelope"></i>
+		</div>
+		<p>Made with <i class="far fa-heart" id="l"></i> by Nardjes Bessafi</p>
+	</section>
+	
+	
+	
+
+  
+<!--------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+	navLinks.style.right = "0";
+	}
+	function hideMenu(){
+	navLinks.style.right = "-200px";
+	}
+</script>
+
+</body>
+
+
+</html>
